@@ -101,6 +101,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="40dp"
+                android:clickable="true"
                 android:gravity="center_horizontal"
                 android:text="Don't Have An Account ? Sign Up"
                 android:textColor="@color/teal"

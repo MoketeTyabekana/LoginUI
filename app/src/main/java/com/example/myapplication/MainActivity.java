@@ -29,5 +29,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intentReset);
             }
         });
+
+        tvAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intentAcc=new Intent(MainActivity.this,Registration.class);
+                startActivity(intentAcc);
+            }
+        });
     }
 }
